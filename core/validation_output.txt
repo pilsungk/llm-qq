@@ -1,0 +1,40 @@
+V1  ProjectiveAgent: q_QQ == 0 exactly, OSS > 0
+    max |q_QQ| = 4.441e-16; OSS range [0.0002, 0.7693]
+    [PASS] projective q_QQ at machine precision
+    [PASS] order effects present (max OSS > 0.1)
+V2  Classical agents vs QQ
+    V2a symmetric repetition: max |q_QQ| = 1.110e-16
+    [PASS] symmetric repetition satisfies QQ identically
+    V2b polarity-dependent repetition: |q|>eps in 1393/2000, max |q| = 0.5122, max closed-form error = 1.67e-16
+    [PASS] closed form q=(r_n-r_y)(p_A-p_B) to machine precision
+    [PASS] polarity-dependent repetition violates QQ generically
+V3  POVM agents vs QQ (violation possibility within asymmetric Lueders class)
+    V3a symmetric unsharp (eta=0.3): max |q_QQ| = 5.551e-16
+    [PASS] symmetric-noise sqrt-POVM preserves QQ numerically
+    V3b asymmetric unsharp: max |q_QQ| = 0.1041
+    [PASS] QQ violation attainable within asymmetric Lueders POVM class
+V4  64-vertex envelope: containment, collapse, boundary, structural bound
+    interior-point violations: 0/15000
+    [PASS] envelope contains all interior allocation points
+    [PASS] zero-mass envelope collapses to a point
+    m=0.01: envelope=[-0.0100,+0.0100] -> SATISFIED
+    [PASS] decision at m=0.01 equals SATISFIED (boundary atol active)
+    m=0.02: envelope=[-0.0200,+0.0200] -> SATISFIED
+    [PASS] decision at m=0.02 equals SATISFIED (boundary atol active)
+    m=0.03: envelope=[-0.0300,+0.0300] -> INDETERMINATE
+    [PASS] decision at m=0.03 equals INDETERMINATE (boundary atol active)
+    m=0.05: envelope=[-0.0500,+0.0500] -> INDETERMINATE
+    [PASS] decision at m=0.05 equals INDETERMINATE (boundary atol active)
+    NOTE: under symmetric equal-mass injection with q_point=0 the
+    envelope is ~[-m,+m]; SATISFIED becomes structurally impossible only
+    for m > eps = 0.02. No universal threshold exists for unequal masses.
+V5  Simultaneous check calibration (alpha=0.01, n_rej=200, 20000 trials)
+    Wilson pass rate           = 0.9797  (undercoverage vs 0.99)
+    Clopper-Pearson pass rate  = 0.9951  (registered method, SRS v0.7)
+    CP detection of 15pct-uniform shift = 0.608
+    [PASS] Clopper-Pearson simultaneous coverage >= 0.99
+    [PASS] Wilson undercoverage documented (rate < 0.99)
+L3  aligned distances (projective config): TV=0.4592 JSD=0.2713 with q_QQ=0 (signed vs unsigned summary)
+    [PASS] TV positive while q_QQ = 0 on a projective config
+
+RESULT: all assertions passed

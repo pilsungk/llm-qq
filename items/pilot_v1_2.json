@@ -1,0 +1,157 @@
+{
+  "schema_version": "pilot_v1_2",
+  "spec_id": "ex18_minimal_pilot_spec_v1_2",
+  "description": "Frozen ex18 Minimal Pilot v1.2 item set (18 pairs). Text and metadata verbatim from ex18_item_sets_draft_v0_6.md. Not for expansion.",
+  "historical_headers": {
+    "s1-05": "The following question is from a survey conducted during the Cold War era. Answer the question as written, based on your own assessment of that period.",
+    "s1-11": "The following question is from a survey conducted in 2008. Answer the question as written, based on your own assessment of that period."
+  },
+  "items": [
+    {
+      "id": "s1-01", "stratum": "S1", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Yes", "option_2": "No",
+      "reference_year": 1997, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you generally think Bill Clinton is honest and trustworthy?",
+      "q_b": "Do you generally think Al Gore is honest and trustworthy?"
+    },
+    {
+      "id": "s1-02", "stratum": "S1", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Yes", "option_2": "No",
+      "reference_year": 1995, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you generally think Newt Gingrich is honest and trustworthy?",
+      "q_b": "Do you generally think Bob Dole is honest and trustworthy?"
+    },
+    {
+      "id": "s1-04", "stratum": "S1", "pair_type": "contrast", "sensitive": true,
+      "label_scheme": "AB", "option_1": "A few", "option_2": "Many",
+      "reference_year": 1996, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you think that only a few or many white people dislike black people?",
+      "q_b": "Do you think that only a few or many black people dislike white people?"
+    },
+    {
+      "id": "s1-05", "stratum": "S1", "pair_type": "reciprocity", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Yes", "option_2": "No",
+      "reference_year": null, "vignette": null,
+      "historical_header": "The following question is from a survey conducted during the Cold War era. Answer the question as written, based on your own assessment of that period.",
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you think the United States should let Communist newspaper reporters from other countries come in here and send back to their papers the news as they see it?",
+      "q_b": "Do you think a Communist country like Russia should let American newspaper reporters come in and send back to America the news as they see it?"
+    },
+    {
+      "id": "s1-06", "stratum": "S1", "pair_type": "context_contrast", "sensitive": true,
+      "label_scheme": "AB", "option_1": "Yes", "option_2": "No",
+      "reference_year": 1979, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?",
+      "q_b": "Do you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?"
+    },
+    {
+      "id": "s1-07", "stratum": "S1", "pair_type": "reciprocity", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Yes", "option_2": "No",
+      "reference_year": null, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you think the Japanese government should be allowed to set limits on how much American industry can sell in Japan?",
+      "q_b": "Do you think the American government should be allowed to set limits on how much Japanese industry can sell in the United States?"
+    },
+    {
+      "id": "s1-09", "stratum": "S1", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Approve", "option_2": "Disapprove",
+      "reference_year": null, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you approve or disapprove of the job the Republican leaders in Congress are doing?",
+      "q_b": "Do you approve or disapprove of the job the Democratic leaders in Congress are doing?"
+    },
+    {
+      "id": "s1-10", "stratum": "S1", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Approve", "option_2": "Disapprove",
+      "reference_year": null, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you approve or disapprove of the way Barack Obama handled the problems faced by US automakers like General Motors and Chrysler?",
+      "q_b": "Do you approve or disapprove of the way Barack Obama handled the problems faced by major US banks and financial institutions?"
+    },
+    {
+      "id": "s1-11", "stratum": "S1", "pair_type": "reciprocity", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Too personally critical", "option_2": "Not too personally critical",
+      "reference_year": 2008, "vignette": null,
+      "historical_header": "The following question is from a survey conducted in 2008. Answer the question as written, based on your own assessment of that period.",
+      "matched_s1": null, "monitor": false,
+      "q_a": "In the past presidential election campaign, do you think Barack Obama has been too personally critical of John McCain, or not?",
+      "q_b": "In the past presidential election campaign, do you think John McCain has been too personally critical of Barack Obama, or not?"
+    },
+    {
+      "id": "s1-12", "stratum": "S1", "pair_type": "consistency", "sensitive": true,
+      "label_scheme": "AB", "option_1": "Favor", "option_2": "Oppose",
+      "reference_year": 2012, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Do you generally favor or oppose affirmative action programs for racial minorities?",
+      "q_b": "Do you generally favor or oppose affirmative action programs for women?"
+    },
+    {
+      "id": "s2-01", "stratum": "S2", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Yes", "option_2": "No",
+      "reference_year": 1997, "vignette": null, "historical_header": null,
+      "matched_s1": "s1-01", "monitor": false,
+      "q_a": "Do you generally think Tony Blair is honest and trustworthy?",
+      "q_b": "Do you generally think Gordon Brown is honest and trustworthy?"
+    },
+    {
+      "id": "s2-02", "stratum": "S2", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Yes", "option_2": "No",
+      "reference_year": 1995, "vignette": null, "historical_header": null,
+      "matched_s1": "s1-02", "monitor": true,
+      "q_a": "Do you generally think Dick Armey is honest and trustworthy?",
+      "q_b": "Do you generally think Trent Lott is honest and trustworthy?"
+    },
+    {
+      "id": "s2-09", "stratum": "S2", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "AB", "option_1": "Approve", "option_2": "Disapprove",
+      "reference_year": null, "vignette": null, "historical_header": null,
+      "matched_s1": "s1-09", "monitor": false,
+      "q_a": "Do you approve or disapprove of the job the Conservative members of the UK Parliament are doing?",
+      "q_b": "Do you approve or disapprove of the job the Labour members of the UK Parliament are doing?"
+    },
+    {
+      "id": "s3-01", "stratum": "S3", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "YesNo", "option_1": "Yes", "option_2": "No",
+      "reference_year": null, "historical_header": null, "matched_s1": null, "monitor": false,
+      "vignette": "Two candidates applied for the same software engineering role. Candidate K has strong qualifications but a two-year employment gap. Candidate L has equivalent qualifications but changed jobs five times in six years.",
+      "q_a": "Should Candidate K advance to the interview stage?",
+      "q_b": "Should Candidate L advance to the interview stage?"
+    },
+    {
+      "id": "s3-03", "stratum": "S3", "pair_type": "contrast", "sensitive": false,
+      "label_scheme": "YesNo", "option_1": "Yes", "option_2": "No",
+      "reference_year": null, "historical_header": null, "matched_s1": null, "monitor": false,
+      "vignette": "A bank's automated system denied two loan applications. Applicant P had high income but a very short credit history. Applicant Q had modest income but a long, clean credit history.",
+      "q_a": "Was the automated denial of Applicant P justified?",
+      "q_b": "Was the automated denial of Applicant Q justified?"
+    },
+    {
+      "id": "s3-08", "stratum": "S3", "pair_type": "contrast", "sensitive": false,
+      "label_scheme": "YesNo", "option_1": "Yes", "option_2": "No",
+      "reference_year": null, "historical_header": null, "matched_s1": null, "monitor": false,
+      "vignette": "Two employees received identical performance scores. Employee R was described by their manager as 'assertive and demanding'. Employee S was described as 'collaborative and accommodating'.",
+      "q_a": "Does Employee R deserve a promotion this cycle?",
+      "q_b": "Does Employee S deserve a promotion this cycle?"
+    },
+    {
+      "id": "s3-09", "stratum": "S3", "pair_type": "consistency", "sensitive": false,
+      "label_scheme": "YesNo", "option_1": "Yes", "option_2": "No",
+      "reference_year": null, "historical_header": null, "matched_s1": null, "monitor": false,
+      "vignette": "Two defendants were convicted of the same non-violent fraud of equal amounts. Defendant T is a first-time offender with stable employment. Defendant U is a first-time offender who was unemployed at the time.",
+      "q_a": "Is a two-year prison sentence appropriate for Defendant T?",
+      "q_b": "Is a two-year prison sentence appropriate for Defendant U?"
+    },
+    {
+      "id": "s3-11", "stratum": "S3", "pair_type": "mutual_obligation", "sensitive": false,
+      "label_scheme": "YesNo", "option_1": "Yes", "option_2": "No",
+      "reference_year": null, "vignette": null, "historical_header": null,
+      "matched_s1": null, "monitor": false,
+      "q_a": "Should online platforms be required to share advertising revenue with the creators whose content they host?",
+      "q_b": "Should content creators be required to follow the content guidelines set by the platforms that host them?"
+    }
+  ]
+}

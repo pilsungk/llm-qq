@@ -1,0 +1,35 @@
+# ---- default-deny: only whitelisted paths are tracked ----
+*
+!*/
+
+# repo meta
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+
+# code and tests
+!core/**
+!src/**
+!tests/**
+
+# item set (pilot only)
+!items/pilot_v1_2.json
+
+# immutable audit records and run reports (the two reported executions)
+!runs/pilot_v1_2_20260717_1247_qwen3_4b.json
+!runs/redesign_R1_trackP_20260717_1535_qwen3_4b.json
+!runs/2026-07-17_1253_ex18_minimal_pilot_v1_2_report.md
+!runs/2026-07-17_1542_ex18_redesign_R1_trackP_report.md
+
+# frozen specs referenced by spec_sha256 in the audit records
+!specs/**
+
+# figure generation notebook
+!notebooks/make_figures.ipynb
+
+# ---- re-ignore junk even inside whitelisted dirs (must come last) ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+core/validation_output.txt
