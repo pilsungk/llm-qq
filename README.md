@@ -5,7 +5,7 @@ Code, item sets, and immutable audit records for the paper:
 > **Auditing Question-Order Effects in Large Language Models with the QQ
 > Equality: Mechanism Characterization and a Saturation Caveat**
 > Pilsung Kang (Dankook University).
-> arXiv: [link to be added upon submission]
+> arXiv: https://arxiv.org/abs/2607.17219
 
 The paper develops the QQ equality (Wang et al., PNAS 2014) into an
 audit criterion for sequential judgments of autoregressive LLMs, and
@@ -66,5 +66,11 @@ records and run reports in `runs/` and the specs in `specs/` may be
 reused with attribution (CC BY 4.0).
 
 ## Citation
-
-Citation metadata will be added when the arXiv identifier is assigned.
+```bibtex
+@misc{kang2026qq,
+  author       = {Kang, Pilsung},
+  title        = {Auditing Question-Order Effects in Large Language Models with the {QQ} Equality: Mechanism Characterization and a Saturation Caveat},
+  howpublished = {arXiv preprint arXiv:2607.17219},
+  year         = {2026}
+}
+```
